@@ -1,21 +1,3 @@
-.title_top {
-    position: relative;
-    width: 203px;
-    height: 82px;
-    left: 858px;
-    top: 405px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 70px;
-    line-height: 82px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    /* Text/Main (Off White) */
-
-    color: #E9E3E6;
+div.title_screen{
+    background-color: gold;
 }
