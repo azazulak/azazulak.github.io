@@ -1,0 +1,17 @@
+body {
+    margin: 10px;
+}
+
+section.title_screen{
+    background-color: gold;
+}
+
+.title_top {
+    font-size: 140%;
+    display: block;
+
+}
+
+::selection {
+    background-color: pink;
+}
