@@ -13,5 +13,17 @@ section.title_screen{
 }
 
 ::selection {
-    background-color: pink;
+    background-color: #ffc0cb;
+}
+
+.background_image { 
+    background-color: rgba(9, 5, 19, .65);
+}
+
+/* Trialing a gradient design for the Boundary between
+    title and about me content 
+    Use https://cssgradient.io/ to generate a good one*/ 
+.cool_graphic {
+    text-align: center;
+    background: linear-gradient(32deg, rgba(202,248,249,1) 0%, rgba(255,192,203,1) 100%);
 }
