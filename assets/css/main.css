@@ -2896,6 +2896,7 @@ body.is-menu-visible #menu {
   padding: 0.35em 1em;
   position: relative;
   z-index: 1;
+  width: 50vw;
 }
 #banner h2:before, #banner h2:after {
   -moz-transition: width 0.85s ease;
@@ -2924,10 +2925,12 @@ body.is-menu-visible #menu {
 #banner #top-title {
   font-weight: 450;
   font-size: 1.65em;
+  padding-top: 20px;
 }
 #banner #bottom-title {
   font-size: 1.65em;
   font-weight: 700;
+  padding-bottom: 20px;
 }
 #banner p {
   letter-spacing: 0.225em;
