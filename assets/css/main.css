@@ -2922,7 +2922,12 @@ body.is-menu-visible #menu {
   right: 0;
 }
 #banner #top-title {
-  font-weight: 10;
+  font-weight: 450;
+  font-size: 1.65em;
+}
+#banner #bottom-title {
+  font-size: 1.65em;
+  font-weight: 700;
 }
 #banner p {
   letter-spacing: 0.225em;
