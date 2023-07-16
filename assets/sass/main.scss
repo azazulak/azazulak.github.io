@@ -999,6 +999,7 @@
 			position: relative;
 			text-align: left;
 			width: 50%;
+			transition: background-color 0.5s;
 
 			@for $i from 1 through _misc(max-features) {
 				$j: 0.035 * $i;
@@ -1056,7 +1057,14 @@
 				}
 			}
 		}
+
+		li:hover {
+			background-color: _palette(border-bg);
+		}
+
 	}
+
+
 
 /* Spotlight */
 
@@ -1344,6 +1352,7 @@
 
 		&.style1 {
 			@include wrapper(accent1);
+			text-align: left;
 		}
 
 		&.style2 {
