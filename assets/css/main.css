@@ -1957,6 +1957,13 @@ button,
   overflow: hidden;
   text-overflow: ellipsis;
 }
+input[type=submit] i,
+input[type=reset] i,
+input[type=button] i,
+button i,
+.button i {
+  padding-right: 10px;
+}
 input[type=submit]:hover,
 input[type=reset]:hover,
 input[type=button]:hover,
@@ -2931,6 +2938,10 @@ body.is-menu-visible #menu {
   font-size: 1.65em;
   font-weight: 700;
   padding-bottom: 20px;
+}
+#banner #banner-text {
+  width: 50vw;
+  margin: auto;
 }
 #banner p {
   letter-spacing: 0.225em;

@@ -927,6 +927,10 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 
+		i {
+			padding-right: 10px;
+		}
+
 		&:hover {
 			background-color: _palette(border-bg);
 		}
@@ -1587,6 +1591,7 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		
 
 		h2 {
 			@include vendor('transform', 'scale(1)');
@@ -1630,6 +1635,11 @@
 			font-size: 1.65em;
 			font-weight: 700;
 			padding-bottom: 20px;
+		}
+
+		#banner-text {
+			width: 50vw;
+			margin: auto;
 		}
 
 		p {
